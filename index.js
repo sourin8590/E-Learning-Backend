@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://elearning-platform-plum.vercel.app",
     credentials: true,
     maxAge: 14400,
   })
